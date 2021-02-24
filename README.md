@@ -1,6 +1,6 @@
 # shophelpdemo
 
-
+```
 购物助手集成文档
 功能介绍
 购物助手 监听淘宝，京东详情页商品信息来取相应的商品购物卷
@@ -74,4 +74,4 @@ ShopHelpManager.startAccessiblityForResult(Activity activity,int requestCode)
 
 b.不带参数回到当前activity
 ShopHelpManager.startAccessiblity（Activity activity）
-
+```
