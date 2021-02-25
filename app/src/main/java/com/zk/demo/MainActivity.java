@@ -19,14 +19,20 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.text).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(ShopHelpManager.isOpenAccessiblity(MainActivity.this)){
-                    Log.e(TAG, "ÒÑ¾­¿ªÆô¸¨ÖúÄ£Ê½");
+                if (ShopHelpManager.isOpenAccessiblity(MainActivity.this)) {
+                    Log.e(TAG, "ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½");
 
-                }else{
-                    Log.e(TAG, "Îª¿ªÆô¸¨ÖúÄ£Ê½");
+                } else {
+                    Log.e(TAG, "Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½");
                     ShopHelpManager.startAccessiblity(MainActivity.this);
                 }
 
+            }
+        });
+        findViewById(R.id.tv_open_course).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ShopHelpManager.startAccessiblityByCourse(MainActivity.this);
             }
         });
     }
