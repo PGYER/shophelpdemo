@@ -32,7 +32,7 @@ allprojects {
 
 dependencies {
  ...
-  implementation 'com.pgyer:helpshop:1.0.6'
+  implementation 'com.pgyer:helpshop:1.1.1'
 }
 
 4.在 application 中集成
